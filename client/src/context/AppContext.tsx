@@ -27,7 +27,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 export function AppProvider({children} : {children: ReactNode}){
 
     const [user, setUser] = useState<User | null>(null);
-    const [token, setToken] = useState<String | null>(localStorage.getItem("token"));
+    const [token, setToken] = useState<string | null>(localStorage.getItem("token"));
     const [loading, setLoading] = useState(true);
 
     //Axios instance with auth header
