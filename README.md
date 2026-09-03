@@ -132,7 +132,7 @@ SEOlytics/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/RoyCode1103/SEOlytics.git
+git clone https://github.com/RoyCode1103/seolytics.git
 cd SEOlytics
 ```
 
@@ -167,7 +167,7 @@ client/.env
 Add:
 
 ```env
-VITE_BACKEND_URL=http://localhost:3000
+VITE_BACKEND_URL=http://localhost:5000
 ```
 
 ### Backend
